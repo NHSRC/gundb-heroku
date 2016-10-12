@@ -1,5 +1,7 @@
+var seed = require('./seed');
 var Gun = require('gun');
 var gun = Gun({file: false});
+seedDB(gun);
 var port = process.env.PORT || process.argv[2] || 8080;
 var ip = '0.0.0.0';
 var http = require('http');
