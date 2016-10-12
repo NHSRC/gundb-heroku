@@ -1,4 +1,4 @@
-var seed = require('./seed');
+var seedDB = require('./seed');
 var Gun = require('gun');
 var gun = Gun({file: false});
 seedDB(gun);
