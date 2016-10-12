@@ -1,26 +1,25 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.2.5",
-  "description": "A sample Node.js app using Express 4",
+  "name": "GunDB",
+  "version": "0.1.1",
+  "description": "Gun DB",
   "engines": {
-    "node": "5.9.1"
+    "node": "6.7.0"
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js $PORT"
   },
   "dependencies": {
-    "ejs": "2.4.1",
-    "express": "4.13.3"
+    "gun": "0.3.995"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/nhsrc/gundb"
   },
   "keywords": [
     "node",
     "heroku",
-    "express"
+    "gundb"
   ],
-  "license": "MIT"
+  "license": "AGPL-3.0"
 }
